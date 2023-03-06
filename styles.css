@@ -1,0 +1,63 @@
+body {
+    background-color:azure; 
+    font-family: sans-serif;
+    margin-bottom: 80px;
+    display: block;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+main{
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+li {
+    margin: 4px 8px 4px 8px;
+}
+
+input {
+    margin: 4px 8px 4px 8px;
+}
+
+span span {
+    margin: 4px 8px 4px 8px;
+}
+
+.flex-justify-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reminders {
+    position: fixed;
+    height: 80px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: left;
+    background-color:rgba(16, 198, 230, 0.527);
+    margin: 0px;
+}
+
+.reminders li {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 4px;
+}
