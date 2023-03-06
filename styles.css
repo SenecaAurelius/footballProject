@@ -7,6 +7,12 @@ body {
 
 #mainHeading {
     color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    margin: 6px;
 }
 
 .funParagraph {
